@@ -1,0 +1,1 @@
+import{$ as e,ct as t,ot as n,rt as r}from"./index-C3eL15cI.js";var i={type:`button`,class:`panel-button`},a=r({__name:`PanelButton`,setup(r){return(r,a)=>(n(),e(`button`,i,[t(r.$slots,`default`)]))}});export{a as t};
