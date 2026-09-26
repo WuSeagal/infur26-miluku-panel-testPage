@@ -1,1 +1,0 @@
-import{at as e,ct as t,tt as n,ut as r}from"./index-BVSFzl14.js";var i={type:`button`,class:`panel-button`},a=e({__name:`PanelButton`,setup(e){return(e,a)=>(t(),n(`button`,i,[r(e.$slots,`default`)]))}});export{a as t};
