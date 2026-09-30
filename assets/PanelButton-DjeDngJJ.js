@@ -1,0 +1,1 @@
+import{dt as e,gt as t,mt as n,st as r}from"./index-D6p_0prK.js";var i={type:`button`,class:`panel-button`},a=e({__name:`PanelButton`,setup(e){return(e,a)=>(n(),r(`button`,i,[t(e.$slots,`default`)]))}});export{a as t};
