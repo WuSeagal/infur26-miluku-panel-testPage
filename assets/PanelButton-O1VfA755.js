@@ -1,1 +1,0 @@
-import{At as e,Ct as t,Dt as n,Mt as r}from"./index-CUsT-cVk.js";var i={type:`button`,class:`panel-button`},a=n({__name:`PanelButton`,setup(n){return(n,a)=>(e(),t(`button`,i,[r(n.$slots,`default`)]))}});export{a as t};
