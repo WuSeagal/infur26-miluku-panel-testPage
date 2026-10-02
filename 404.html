@@ -3,13 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>infurnity26-miluku-panel</title>
-    <script type="module" crossorigin src="/infur26-miluku-panel-testPage/assets/index-B5ugBBVn.js"></script>
-    <link rel="modulepreload" crossorigin href="/infur26-miluku-panel-testPage/assets/PanelButton-Cja8a_T2.js">
+    <!-- 只有淺色一套（色碼全部出自 miluku 的設計稿）。不宣告的話 Chrome 的 Auto Dark Theme
+         與 Samsung Internet 的深色網頁模式會自己把配色壓暗、反轉。
+         `only` 是退出強制深色的寫法（https://developer.chrome.com/blog/auto-dark-theme）；
+         寫在 meta 而不是 CSS，深色模式的手機才不會先閃一下被壓暗的畫面 -->
+    <meta name="color-scheme" content="only light" />
+    <!-- 分頁列表、分享選單、加入主畫面時玩家看到的是這兩行。寫死在這裡、不走畫面文本列表：
+         分享預覽與搜尋引擎不跑 JS，只讀得到 HTML 原本就有的字 -->
+    <title>來自廢棄城邦的秘密訊息 | Miluku Panel Infurnity2026</title>
+    <meta
+      name="description"
+      content="Miluku的獸無限2026解謎活動 - 「我們在廢棄城邦中截獲了一段微弱訊號。為了尋找可能的倖存者，我們需要你前往調查。小隊已經在現場等候，趕緊動身吧！」 探索現場、和性格迥異的小隊成員一同搜查，找出訊號背後的真相。"
+    />
+    <script type="module" crossorigin src="/infur26-miluku-panel-testPage/assets/index-DhLtDjVM.js"></script>
+    <link rel="modulepreload" crossorigin href="/infur26-miluku-panel-testPage/assets/PanelButton-6D7XjiJK.js">
     <link rel="stylesheet" crossorigin href="/infur26-miluku-panel-testPage/assets/PanelButton-DZXcljz2.css">
-    <link rel="stylesheet" crossorigin href="/infur26-miluku-panel-testPage/assets/index-CaVlwyrC.css">
+    <link rel="stylesheet" crossorigin href="/infur26-miluku-panel-testPage/assets/index-D9AXDjge.css">
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app"></div>
   </body>
 </html>
