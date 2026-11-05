@@ -8,6 +8,10 @@
          `only` 是退出強制深色的寫法（https://developer.chrome.com/blog/auto-dark-theme）；
          寫在 meta 而不是 CSS，深色模式的手機才不會先閃一下被壓暗的畫面 -->
     <meta name="color-scheme" content="only light" />
+    <!-- Dark Reader（電腦上最常見的深色外掛）看到這一格就不幫這個網站換深色（2026-11-05，線上版）。
+         它不理上面的 color-scheme。https://github.com/darkreader/darkreader/discussions/11320
+         Samsung Internet 的深色模式兩個都不一定理，而且網頁偵測不到 —— 要等真機重現才知道怎麼補 -->
+    <meta name="darkreader-lock" />
     <!-- 分頁列表、分享選單、加入主畫面時玩家看到的是這兩行。寫死在這裡、不走畫面文本列表：
          分享預覽與搜尋引擎不跑 JS，只讀得到 HTML 原本就有的字 -->
     <title>來自廢棄城邦的秘密訊息 | Miluku Panel Infurnity2026</title>
@@ -15,9 +19,9 @@
       name="description"
       content="Miluku的獸無限2026解謎活動 - 「我們在廢棄城邦中截獲了一段微弱訊號。為了尋找可能的倖存者，我們需要你前往調查。小隊已經在現場等候，趕緊動身吧！」 探索現場、和性格迥異的小隊成員一同搜查，找出訊號背後的真相。"
     />
-    <script type="module" crossorigin src="/infur26-miluku-panel-testPage/assets/index-oRBrRaUZ.js"></script>
+    <script type="module" crossorigin src="/infur26-miluku-panel-testPage/assets/index-Qpp9xEoT.js"></script>
     <link rel="modulepreload" crossorigin href="/infur26-miluku-panel-testPage/assets/locales-BkMhqLHa.js">
-    <link rel="stylesheet" crossorigin href="/infur26-miluku-panel-testPage/assets/index-Datz5XYT.css">
+    <link rel="stylesheet" crossorigin href="/infur26-miluku-panel-testPage/assets/index-DnsMGNA7.css">
   </head>
   <body>
     <div id="app"></div>
